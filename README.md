@@ -6,7 +6,7 @@
 
 # Epoch: 
 
-Epoch is the term we use for one full cycle which is made of one forward propagation and one back propagation. We can decide the number of cycles in our training by setting the number of epochs at pre training stage. There is common question in the minds of first timers about the selection of number of epochs before training which will help to utilize resources of computing unit efficiently. The answer is Selection of number of epoch at which validation set loss starts to increase and training set loss starts to get decrease which in other term over fitting of the model. Hence selection of number of epochs is very important parameter which helps to use resources and time efficiently.
+Epoch is the term we use for one cycle of training dataset to complete all its forward and backward propogations . We can decide the number of cycles in our training by setting the number of epochs at pre training stage. There is common question in the minds of first timers about the selection of number of epochs before training which will help to utilize resources of computing unit efficiently. The answer is Selection of number of epoch at which validation set loss starts to increase and training set loss starts to get decrease which in other term over fitting of the model. Hence selection of number of epochs is very important parameter which helps to use resources and time efficiently.
 
 # Feature Map: 
 
@@ -21,7 +21,7 @@ Activation functions are the functions we have at the end of the node which take
 
 # Convolution : 
 
-Convolution Nueral network has become very famous option for the image classification task after the introduction of GPU and it got wide responce after Alexnet model 2012. The convolution process takes place when the filters/kernel convolve on the input images which creates the dot product. Each filters with specific strides and size move on the image to produce the dot product with the pixels which creates feature maps. These feature maps will have specific features which tells unique information about the image. The filters weights gets update in each epochs after backpropogation through the number of layers.We can use maxpooling layers which reduces the size of the image during intermediate layers.
+Convolution Nueral network has become very famous option for the image classification task after the introduction of GPU and it got wide response after Alexnet model 2012. The convolution process takes place when the filters/kernel convolve on the input images which creates the dot product. Each filters with specific strides and size move on the image to produce the dot product with the pixels which creates feature maps. These feature maps will have specific features which tells unique information about the image. The filters weights gets update in each epochs after backpropogation through the number of layers.We can use maxpooling layers which reduces the size of the image during intermediate layers.
 
 ![](https://cdn-images-1.medium.com/max/1000/1*7S266Kq-UCExS25iX_I_AQ.png)
 
